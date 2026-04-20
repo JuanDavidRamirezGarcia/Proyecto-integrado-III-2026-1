@@ -34,7 +34,7 @@ $variacion=(\frac{Breakfast-Basket-Marzo2026-Breakfast-Basket-Octubre2025}{Break
 
 3. Diferencia del costo de la canasta en dolares= En esta variable se va a comparar el costo en dólares de la canasta básica con el promedio de los países de Latinoamérica.
 
-$\text{Brecha (USD)} = \text{Breakfast-Basket-USD}_{Colombia} - \text{Promedio-Basket-USD}_{\text{Latam}}$
+$\text{Brecha (USD)} = \text{Breakfast-Basket-USD}_{Colombia} - \text{Promedio-Basket-USD}_{Latam}$
 
 
 
