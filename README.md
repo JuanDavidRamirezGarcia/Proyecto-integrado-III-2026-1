@@ -6,7 +6,7 @@
 
 Según la **FAO** los precios mundiales de productos alimenticios subieron en marzo de 2026 por segundo mes consecutivo. Debido en gran medida al conflicto que hay en Medio Oriente, el cual ha encarecido los precios energéticos y por ende el precio de alimentos, los cuales cuestan más su producción. Como muestra el índice de precios, subió un 2,4% más que en febrero del mismo año y un 1% más que el promedio del año anterior. Se espera que los precios sigan subiendo a medida que el conflicto continúe.
 
-Para Latinoamérica el impacto será el mismo, el alza de precios de productos de la canasta básica, ya que la región depende de fertilizantes importados para la producción, lo cual aumenta el costo de producción y cultivo. En consecuencia, estos precios se trasladan al consumidor impacto el alza del costo de vida.
+Para Latinoamérica el impacto será el mismo, el alza de precios de productos de la canasta básica, ya que la región depende de fertilizantes importados para la producción, lo cual aumenta el costo de producción y cultivo. En consecuencia, estos precios se trasladan al consumidor y impactan el alza del costo de vida.
 
 De acá la importancia de analizar los precios de algunos alimentos en Colombia y compararlos con los precios de otros países en la región.
 
@@ -34,7 +34,7 @@ $variacion=(\frac{Breakfast-Basket-Marzo2026-Breakfast-Basket-Octubre2025}{Break
 
 3. Diferencia del costo de la canasta en dolares= En esta variable se va a comparar el costo en dólares de la canasta básica con el promedio de los países de Latinoamérica.
 
-$\text{Brecha (USD)} = \text{Breakfast-Basket-USD}_{Colombia} - \text{Promedio-Basket-USD}_{Latam}$
+$Brecha-(USD) = Breakfast-Basket-USD_{Colombia} - Promedio-Basket-USD_{Latam}$
 
 
 
