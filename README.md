@@ -37,4 +37,46 @@ $variacion=(\frac{Breakfast-Basket-Marzo2026-Breakfast-Basket-Octubre2025}{Break
 $Brecha-(USD) = Breakfast-Basket-USD_{Colombia} - Promedio-Basket-USD_{Latam}$
 
 
+##  Observaciones del Dataset (EDA)
+
+### Calidad y Estructura de los Datos
+* **Nulos y Duplicados:** De las 27 variables y 10,248 observaciones, el dataset presenta integridad total (**0% de nulos** y **0% de duplicados**).
+* **Tipología:** Se identifican 5 variables de tipo texto, 15 categóricas y 7 numéricas.
+    * *Nota:* Las variables `Month`, `Month_Name` y `Data-Collection-date` requieren transformación a tipo **datetime** para el análisis de series de tiempo.
+
+###  Correlaciones Significativas
+* **Región vs. Inflación (1.000):** Indica que el cálculo o la fuente de inflación está directamente asociada a la segmentación regional.
+* **Continente vs. Región (0.935):** Confirma una jerarquía geográfica lógica y consistente.
+* **Basket_USD vs. Inflación (-0.601):** Correlación negativa que sugiere que ante un alza en la inflación local, el costo de la canasta expresado en dólares tiende a bajar (posible efecto de la devaluación cambiaria).
+
+###  Análisis de Distribución
+* **Price_USD:** Presenta **asimetría positiva**. La mayoría de los datos se concentran en precios bajos de productos básicos, con una "cola" a la derecha generada por productos de precios elevados (outliers).
+* **YoY_Inflation_Estimate_Pct:** Distribución **multimodal**. Los diversos picos indican que la inflación está segmentada por regiones con realidades económicas muy distintas.
+* **Breakfast_Basket_USD:** Los costos se concentran principalmente en un rango de **5 a 10 USD**, mientras que los valores entre 15 y 20 USD son menos frecuentes.
+
+---
+
+##  Resumen Estadístico
+
+### Variables Numéricas de Control
+| Variable | Conteo (n) | Promedio | Mediana | Desv. Est. | Mínimo | Máximo |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Inflación YoY %** | 10,248 | 5.53% | 5.50% | 2.49% | 2.40% | 11.20% |
+| **Price_USD** | 10,248 | $4.48 | $2.42 | $5.37 | $0.17 | $52.13 |
+| **Basket_USD** | 10,248 | $9.56 | $9.17 | $3.98 | $2.84 | $20.61 |
+| **FAO_Index_Value** | 10,248 | 125.77 | 125.90 | 0.88 | 124.20 | 127.10 |
+
+### Variables Categóricas (Moda)
+* **Continent:** Asia (3,612 registros).
+* **Currency_local:** EUR (1,932 registros).
+* **Item:** Milk (1 Liter) (732 registros).
+
+---
+
+##  Entregables de Análisis Externo
+Debido a limitaciones de compatibilidad con widgets interactivos en GitHub, el análisis detallado generado mediante librerías de profilado se encuentra disponible en formato pdf: Profilado de datos.pdf
+
+
+
+
 
