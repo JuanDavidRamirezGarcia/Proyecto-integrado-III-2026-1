@@ -58,7 +58,7 @@ $Brecha-(USD) = Breakfast-Basket-USD_{Colombia} - Promedio-Basket-USD_{Latam}$
 
 ##  Resumen Estadístico
 
-### Variables Numéricas de Control
+### Variables Numéricas relevantes
 | Variable | Conteo (n) | Promedio | Mediana | Desv. Est. | Mínimo | Máximo |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Inflación YoY %** | 10,248 | 5.53% | 5.50% | 2.49% | 2.40% | 11.20% |
@@ -66,7 +66,8 @@ $Brecha-(USD) = Breakfast-Basket-USD_{Colombia} - Promedio-Basket-USD_{Latam}$
 | **Basket_USD** | 10,248 | $9.56 | $9.17 | $3.98 | $2.84 | $20.61 |
 | **FAO_Index_Value** | 10,248 | 125.77 | 125.90 | 0.88 | 124.20 | 127.10 |
 
-### Variables Categóricas (Moda)
+### Variables Categóricas releventes
+
 * **Continent:** Asia (3,612 registros).
 * **Currency_local:** EUR (1,932 registros).
 * **Item:** Milk (1 Liter) (732 registros).
