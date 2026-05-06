@@ -1,5 +1,7 @@
 # Proyecto-integrado-III
 
+# Evidencia de aprendizaje 1
+
 ## I Definición del problema
 
 **Definición de problema y su impacto**
@@ -66,9 +68,9 @@ $Brecha-(USD) = Breakfast-Basket-USD_{Colombia} - Promedio-Basket-USD_{Latam}$
 | **Basket_USD** | 10,248 | $9.56 | $9.17 | $3.98 | $2.84 | $20.61 |
 | **FAO_Index_Value** | 10,248 | 125.77 | 125.90 | 0.88 | 124.20 | 127.10 |
 
-### Variables Categóricas releventes
+### Variables categóricas relevantes
 
-* **Continent:** Asia (3,612 registros).
+* **Continente:** Asia (3,612 registros).
 * **Currency_local:** EUR (1,932 registros).
 * **Item:** Milk (1 Liter) (732 registros).
 
@@ -77,7 +79,65 @@ $Brecha-(USD) = Breakfast-Basket-USD_{Colombia} - Promedio-Basket-USD_{Latam}$
 ##  Entregables de Análisis Externo
 Debido a limitaciones de compatibilidad con widgets interactivos en GitHub, el análisis detallado generado mediante librerías de profilado se encuentra disponible en formato pdf: Profilado de datos.pdf
 
+# Evidencia de aprendizaje 2
 
+En esta actividad de aprendizaje se llevó a cabo un proceso de limpieza y estandarización de los datos, para tener un formato de datos de buena calidad para responder a la pregunta de investigación de este proyecto que es mirar la variabilidad de los productos de la canasta familiar.
+
+##  Descripción de la Necesidad
+
+El proyecto analiza la **inflación de la canasta de alimentos básicos en países de Latinoamérica**, con foco específico en Colombia (Bogotá y Medellín). Los datos se obtienen desde Google Sheets y contienen información de precios de productos alimentarios entre **octubre de 2025 y marzo de 2026**.
+
+El dataset original cuenta con **10.248 filas y 27 columnas**. El subconjunto filtrado para Colombia tiene **168 filas y 27 columnas**, e incluye variables como ciudad, mes, producto, categoría, precio local (COP), precio en USD e índices de inflación (FAO/IMF).
+
+Se identificaron las siguientes necesidades de limpieza:
+
+- **Duplicados:** No se encontraron registros duplicados.
+- **Valores nulos:** No se encontraron valores nulos.
+- **Inconsistencias en valores:**
+  - `City`: Nombres de ciudades sin tilde (`Bogota` → `Bogotá`, `Medellin` → `Medellín`).
+  - `Item`: Nombres de productos con unidades de medida redundantes; se requería simplificar (ej. `Milk (1 Liter)` → `Milk`).
+  - `Price_Local`: Valores decimales que debían redondearse a enteros para coherencia con el peso colombiano (COP).
+- **Tipos de datos:** Las columnas `Month` y `Data_Collection_Date` estaban en tipo `object` y debían convertirse a `datetime`.
+- **Valores atípicos:** `Price_Local` y `Price_USD` presentan 28 registros atípicos cada uno, correspondientes a productos de alta variabilidad como la carne. Se decidió **conservarlos** por reflejar la realidad del mercado.
+- **Granularidad:** Baja (un precio oficial por producto/ciudad/mes). Se recomendó calcular la variabilidad mensual.
+
+  ## Limpieza y Transformación
+
+Las transformaciones aplicadas al dataset fueron:
+
+1. **Eliminación de duplicados** — No requerida (0 duplicados detectados).
+2. **Tratamiento de valores nulos** — No requerido (0 valores nulos detectados).
+3. **Ajuste de tipos de datos** — `Month` y `Data_Collection_Date` convertidas a `datetime64[ns]` con `pd.to_datetime()`.
+4. **Análisis de valores atípicos** — Se generaron boxplots por precio (COP y USD) y por categoría de producto. La categoría **Meat** fue la de mayor dispersión. Se decidió conservar los outliers al ser representativos del mercado real.
+5. **Corrección de valores con `replace`, `map` y `zip`:**
+   - Nombres de ciudades estandarizados con diccionario y `.replace()`.
+   - Nombres de productos simplificados con `.map()` usando un diccionario construido con `zip()` (14 ítems de la canasta familiar).
+   - Precios locales redondeados a enteros con `.round(0).astype(int)`.
+6. **Agregación de datos:**
+   - *Variación mensual del costo de la canasta* (COP y USD) con `.groupby('Month')`.
+   - *Comparativa de precios por ciudad* (Bogotá vs Medellín) mes a mes.
+   - *Costo promedio por categoría* — La categoría **Meat** es la de mayor peso en el presupuesto (~$39.534 COP / $9,41 USD).
+   - *Comparativa con inflación oficial* — La inflación oficial anual es **5,9%**, pero los precios reales fluctúan mensualmente, confirmando que la canasta tiene variabilidad propia.
+
+---
+
+Se realizaron tres validaciones al finalizar el proceso:
+
+| Validación | Resultado |
+|---|---|
+| **Completitud de los datos** | ✅ DataFrame sin valores nulos (`df_col`: 0 valores nulos) |
+| **Relevancia de las variables** | ✅ Todas las columnas críticas presentes: `City`, `Month`, `Item`, `Item_Category`, `Item_Key`, `Price_Local`, `Price_USD`, `FAO_Index_Value`, `FAO_YoY_Change_Pct`, `YoY_Inflation_Estimate_Pct`, `Data_Collection_Date`, `Breakfast_Basket_USD` |
+| **Granularidad adecuada** | ✅ Granularidad: Producto × Ciudad × Mes — adecuada para análisis de canasta por ciudad |
+
+**Resumen de acciones aplicadas:**
+- ✔ Duplicados: No teníamos
+- ✔ Valores Nulos: No teníamos
+- ✔ Tipos de Datos: `Month` → datetime, `City`/`Item_Category` → category
+- ✔ Valores Atípicos: Conservados (explican variabilidad real de `Price_USD`)
+- ✔ `map()`: Nombres de ciudades estandarizados
+- ✔ `replace()`: Método documentado para correcciones puntuales
+- ✔ `zip()`: Actualización de múltiples filas con condiciones
+- ✔ `groupby()`: Agregación por mes y categoría
 
 
 
