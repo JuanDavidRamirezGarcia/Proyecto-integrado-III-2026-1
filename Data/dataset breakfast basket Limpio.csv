@@ -1,0 +1,169 @@
+City,Month,Item,Item_Category,Item_Key,Price_Local,Price_USD,FAO_Index_Value,FAO_YoY_Change_Pct,YoY_Inflation_Estimate_Pct,Data_Collection_Date,Breakfast_Basket_USD
+Bogotá,2025-10-01,Milk,Dairy,Milk_1L,5672,1.35,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Milk,Dairy,Milk_1L,5630,1.34,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Milk,Dairy,Milk_1L,5714,1.36,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Milk,Dairy,Milk_1L,5798,1.38,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Milk,Dairy,Milk_1L,5588,1.33,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Milk,Dairy,Milk_1L,5714,1.36,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Fresh White Bread,Bakery,Bread_500g,6765,1.61,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Fresh White Bread,Bakery,Bread_500g,7143,1.7,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Fresh White Bread,Bakery,Bread_500g,6975,1.66,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Fresh White Bread,Bakery,Bread_500g,6849,1.63,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Fresh White Bread,Bakery,Bread_500g,6933,1.65,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Fresh White Bread,Bakery,Bread_500g,7059,1.68,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Arroz Blanco,Grains,Rice_1kg,8025,1.91,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Arroz Blanco,Grains,Rice_1kg,8487,2.02,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Arroz Blanco,Grains,Rice_1kg,8697,2.07,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Arroz Blanco,Grains,Rice_1kg,8193,1.95,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Arroz Blanco,Grains,Rice_1kg,8403,2.0,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Arroz Blanco,Grains,Rice_1kg,8571,2.04,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Eggs,Dairy & Eggs,Eggs_12,9874,2.35,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Eggs,Dairy & Eggs,Eggs_12,10084,2.4,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Eggs,Dairy & Eggs,Eggs_12,10714,2.55,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Eggs,Dairy & Eggs,Eggs_12,10252,2.44,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Eggs,Dairy & Eggs,Eggs_12,10630,2.53,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Eggs,Dairy & Eggs,Eggs_12,10672,2.54,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Local Chese,Dairy,Cheese_1kg,23697,5.64,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Local Chese,Dairy,Cheese_1kg,24412,5.81,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Local Chese,Dairy,Cheese_1kg,24286,5.78,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Local Chese,Dairy,Cheese_1kg,23655,5.63,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Local Chese,Dairy,Cheese_1kg,24454,5.82,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Local Chese,Dairy,Cheese_1kg,24538,5.84,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Chicken Fillets,Meat,Chicken_1kg,27395,6.52,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Chicken Fillets,Meat,Chicken_1kg,26513,6.31,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Chicken Fillets,Meat,Chicken_1kg,26176,6.23,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Chicken Fillets,Meat,Chicken_1kg,26513,6.31,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Chicken Fillets,Meat,Chicken_1kg,27395,6.52,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Chicken Fillets,Meat,Chicken_1kg,27059,6.44,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Beef Round,Meat,Beef_1kg,54244,12.91,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Beef Round,Meat,Beef_1kg,54538,12.98,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Beef Round,Meat,Beef_1kg,51849,12.34,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Beef Round,Meat,Beef_1kg,53361,12.7,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Beef Round,Meat,Beef_1kg,53571,12.75,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Beef Round,Meat,Beef_1kg,54328,12.93,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Apples,Fruits,Apples_1kg,12563,2.99,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Apples,Fruits,Apples_1kg,13319,3.17,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Apples,Fruits,Apples_1kg,13445,3.2,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Apples,Fruits,Apples_1kg,13193,3.14,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Apples,Fruits,Apples_1kg,13277,3.16,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Apples,Fruits,Apples_1kg,13277,3.16,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Bananas,Fruits,Bananas_1kg,6471,1.54,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Bananas,Fruits,Bananas_1kg,6765,1.61,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Bananas,Fruits,Bananas_1kg,7101,1.69,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Bananas,Fruits,Bananas_1kg,6723,1.6,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Bananas,Fruits,Bananas_1kg,6723,1.6,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Bananas,Fruits,Bananas_1kg,6849,1.63,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Oranges,Fruits,Oranges_1kg,6345,1.51,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Oranges,Fruits,Oranges_1kg,6975,1.66,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Oranges,Fruits,Oranges_1kg,7017,1.67,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Oranges,Fruits,Oranges_1kg,6933,1.65,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Oranges,Fruits,Oranges_1kg,6723,1.6,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Oranges,Fruits,Oranges_1kg,6807,1.62,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Tomatoes,Vegetables,Tomatoes_1kg,10252,2.44,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Tomatoes,Vegetables,Tomatoes_1kg,11471,2.73,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Tomatoes,Vegetables,Tomatoes_1kg,12101,2.88,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Tomatoes,Vegetables,Tomatoes_1kg,11176,2.66,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Tomatoes,Vegetables,Tomatoes_1kg,11387,2.71,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Tomatoes,Vegetables,Tomatoes_1kg,11429,2.72,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Potatoes,Vegetables,Potatoes_1kg,5168,1.23,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Potatoes,Vegetables,Potatoes_1kg,5672,1.35,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Potatoes,Vegetables,Potatoes_1kg,5630,1.34,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Potatoes,Vegetables,Potatoes_1kg,5756,1.37,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Potatoes,Vegetables,Potatoes_1kg,5462,1.3,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Potatoes,Vegetables,Potatoes_1kg,5630,1.34,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Onions,Vegetables,Onions_1kg,5126,1.22,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Onions,Vegetables,Onions_1kg,5966,1.42,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Onions,Vegetables,Onions_1kg,5840,1.39,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Onions,Vegetables,Onions_1kg,5630,1.34,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Onions,Vegetables,Onions_1kg,5714,1.36,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Onions,Vegetables,Onions_1kg,5714,1.36,126.0,-1.0,5.9,2026-03-20,7.62
+Bogotá,2025-10-01,Lettuce,Vegetables,Lettuce_1hd,3866,0.92,127.1,-1.0,5.9,2026-03-20,7.22
+Bogotá,2025-11-01,Lettuce,Vegetables,Lettuce_1hd,4496,1.07,126.2,-1.0,5.9,2026-03-20,7.46
+Bogotá,2025-12-01,Lettuce,Vegetables,Lettuce_1hd,4580,1.09,125.8,-1.0,5.9,2026-03-20,7.64
+Bogotá,2026-01-01,Lettuce,Vegetables,Lettuce_1hd,4328,1.03,124.2,-1.0,5.9,2026-03-20,7.4
+Bogotá,2026-02-01,Lettuce,Vegetables,Lettuce_1hd,4286,1.02,125.3,-1.0,5.9,2026-03-20,7.51
+Bogotá,2026-03-01,Lettuce,Vegetables,Lettuce_1hd,4370,1.04,126.0,-1.0,5.9,2026-03-20,7.62
+Medellín,2025-10-01,Milk,Dairy,Milk_1L,5336,1.27,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Milk,Dairy,Milk_1L,5462,1.3,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Milk,Dairy,Milk_1L,5294,1.26,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Milk,Dairy,Milk_1L,5504,1.31,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Milk,Dairy,Milk_1L,5378,1.28,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Milk,Dairy,Milk_1L,5504,1.31,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Fresh White Bread,Bakery,Bread_500g,6807,1.62,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Fresh White Bread,Bakery,Bread_500g,6933,1.65,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Fresh White Bread,Bakery,Bread_500g,6723,1.6,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Fresh White Bread,Bakery,Bread_500g,6639,1.58,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Fresh White Bread,Bakery,Bread_500g,6765,1.61,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Fresh White Bread,Bakery,Bread_500g,6807,1.62,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Arroz Blanco,Grains,Rice_1kg,8025,1.91,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Arroz Blanco,Grains,Rice_1kg,8067,1.92,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Arroz Blanco,Grains,Rice_1kg,8151,1.94,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Arroz Blanco,Grains,Rice_1kg,8109,1.93,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Arroz Blanco,Grains,Rice_1kg,8319,1.98,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Arroz Blanco,Grains,Rice_1kg,8277,1.97,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Eggs,Dairy & Eggs,Eggs_12,9496,2.26,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Eggs,Dairy & Eggs,Eggs_12,9748,2.32,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Eggs,Dairy & Eggs,Eggs_12,10042,2.39,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Eggs,Dairy & Eggs,Eggs_12,10084,2.4,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Eggs,Dairy & Eggs,Eggs_12,10210,2.43,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Eggs,Dairy & Eggs,Eggs_12,10252,2.44,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Local Chese,Dairy,Cheese_1kg,22899,5.45,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Local Chese,Dairy,Cheese_1kg,22563,5.37,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Local Chese,Dairy,Cheese_1kg,23319,5.55,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Local Chese,Dairy,Cheese_1kg,23824,5.67,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Local Chese,Dairy,Cheese_1kg,23824,5.67,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Local Chese,Dairy,Cheese_1kg,23655,5.63,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Chicken Fillets,Meat,Chicken_1kg,25084,5.97,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Chicken Fillets,Meat,Chicken_1kg,25042,5.96,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Chicken Fillets,Meat,Chicken_1kg,25672,6.11,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Chicken Fillets,Meat,Chicken_1kg,25798,6.14,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Chicken Fillets,Meat,Chicken_1kg,26387,6.28,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Chicken Fillets,Meat,Chicken_1kg,26050,6.2,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Beef Round,Meat,Beef_1kg,51933,12.36,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Beef Round,Meat,Beef_1kg,52479,12.49,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Beef Round,Meat,Beef_1kg,51429,12.24,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Beef Round,Meat,Beef_1kg,50168,11.94,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Beef Round,Meat,Beef_1kg,53529,12.74,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Beef Round,Meat,Beef_1kg,52311,12.45,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Apples,Fruits,Apples_1kg,11975,2.85,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Apples,Fruits,Apples_1kg,13067,3.11,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Apples,Fruits,Apples_1kg,12899,3.07,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Apples,Fruits,Apples_1kg,12815,3.05,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Apples,Fruits,Apples_1kg,12983,3.09,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Apples,Fruits,Apples_1kg,12815,3.05,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Bananas,Fruits,Bananas_1kg,6260,1.49,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Bananas,Fruits,Bananas_1kg,6765,1.61,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Bananas,Fruits,Bananas_1kg,6555,1.56,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Bananas,Fruits,Bananas_1kg,6429,1.53,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Bananas,Fruits,Bananas_1kg,6513,1.55,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Bananas,Fruits,Bananas_1kg,6597,1.57,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Oranges,Fruits,Oranges_1kg,5924,1.41,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Oranges,Fruits,Oranges_1kg,6639,1.58,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Oranges,Fruits,Oranges_1kg,6471,1.54,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Oranges,Fruits,Oranges_1kg,6555,1.56,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Oranges,Fruits,Oranges_1kg,6429,1.53,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Oranges,Fruits,Oranges_1kg,6555,1.56,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Tomatoes,Vegetables,Tomatoes_1kg,10168,2.42,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Tomatoes,Vegetables,Tomatoes_1kg,10882,2.59,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Tomatoes,Vegetables,Tomatoes_1kg,11513,2.74,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Tomatoes,Vegetables,Tomatoes_1kg,11050,2.63,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Tomatoes,Vegetables,Tomatoes_1kg,10798,2.57,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Tomatoes,Vegetables,Tomatoes_1kg,11008,2.62,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Potatoes,Vegetables,Potatoes_1kg,5042,1.2,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Potatoes,Vegetables,Potatoes_1kg,5630,1.34,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Potatoes,Vegetables,Potatoes_1kg,5588,1.33,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Potatoes,Vegetables,Potatoes_1kg,5378,1.28,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Potatoes,Vegetables,Potatoes_1kg,5462,1.3,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Potatoes,Vegetables,Potatoes_1kg,5420,1.29,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Onions,Vegetables,Onions_1kg,5000,1.19,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Onions,Vegetables,Onions_1kg,5630,1.34,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Onions,Vegetables,Onions_1kg,5840,1.39,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Onions,Vegetables,Onions_1kg,5504,1.31,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Onions,Vegetables,Onions_1kg,5294,1.26,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Onions,Vegetables,Onions_1kg,5504,1.31,126.0,-1.0,5.9,2026-03-20,7.34
+Medellín,2025-10-01,Lettuce,Vegetables,Lettuce_1hd,3908,0.93,127.1,-1.0,5.9,2026-03-20,7.06
+Medellín,2025-11-01,Lettuce,Vegetables,Lettuce_1hd,4328,1.03,126.2,-1.0,5.9,2026-03-20,7.19
+Medellín,2025-12-01,Lettuce,Vegetables,Lettuce_1hd,4244,1.01,125.8,-1.0,5.9,2026-03-20,7.19
+Medellín,2026-01-01,Lettuce,Vegetables,Lettuce_1hd,4244,1.01,124.2,-1.0,5.9,2026-03-20,7.22
+Medellín,2026-02-01,Lettuce,Vegetables,Lettuce_1hd,4118,0.98,125.3,-1.0,5.9,2026-03-20,7.3
+Medellín,2026-03-01,Lettuce,Vegetables,Lettuce_1hd,4202,1.0,126.0,-1.0,5.9,2026-03-20,7.34
