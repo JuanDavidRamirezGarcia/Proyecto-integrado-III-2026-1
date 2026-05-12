@@ -19,7 +19,7 @@ Fuente: https://www.fao.org/newsroom/detail/fao-food-price-index-rises-in-march-
 
 **Pregunta de investigación:**
 
-¿Cómo varió el costo de la "Canasta de Desayuno" (Breakfast Basket) en las ciudades de Colombia comparado con el promedio regional de Latinoamérica entre octubre de 2025 y marzo de 2026, y qué categorías de alimentos fueron las más volátiles?
+¿Cómo varió el costo de la "Canasta de Desayuno" (Breakfast Basket) en las ciudades de Colombia entre octubre de 2025 y marzo de 2026, y qué categorías de alimentos fueron las más volátiles?
 
 
 ## Definición de métricas
